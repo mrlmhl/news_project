@@ -46,7 +46,12 @@ body {
   height: 80px;
   width: auto;
   display: flex;
+  justify-content: space-between;
   margin-right: 20px;
+}
+.nav2-right{
+    display: flex;
+    flex-direction: row;
 }
 
 .newspost {
@@ -146,7 +151,7 @@ body {
   height: 600px;
   display: flex;
   align-items: center;
-  
+
 }
 
 .exp{
@@ -161,6 +166,8 @@ body {
     width: 50%;
     display: flex;
     flex-direction: row;
+    gap: 0.5rem;
+    padding: 10px;
 }
 .expp img{
     width: 120px;
@@ -170,3 +177,41 @@ body {
 
 }
 
+.news{
+    font-size: 10px;
+    margin-top: 20px;
+
+}
+
+.topNewsyazısı{
+   
+    color: #cdacec ;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    height: 60px;
+    width: 560px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.topNews{
+    flex-direction: column;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 560px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  
+  /* margin-top: 10px; */
+
+}
+
+.newsss{
+    display: flex;
+
+}
